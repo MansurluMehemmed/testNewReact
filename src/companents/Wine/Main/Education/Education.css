@@ -1,0 +1,35 @@
+.education{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    h2{
+      margin: 10px 0px;
+      padding: 5px 0px;
+      border-bottom: 1px solid black;
+      width: 100%;
+
+    }
+    .divflex{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      .divflexleft{
+        flex: 2;
+        border: 1px dashed black;
+        p{
+          margin: 3px 0px;
+        }
+      }
+      .divflexright{
+        flex: 1;
+        border: 1px dashed black;
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        p{
+          margin: 0;
+          font-family: 'Courier New', Courier, monospace;
+        }
+      }
+    }
+  }

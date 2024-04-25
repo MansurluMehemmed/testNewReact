@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.div-container {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  margin: 0 auto;
+}

@@ -1,0 +1,13 @@
+.languages{
+    width: 100%;
+    h2{
+      width: 100%;
+      border-bottom: 1px solid black;
+      font-weight: bold;
+    }
+    ul{
+        padding: 10px 15px;
+        list-style: none;
+        
+    }
+  }
